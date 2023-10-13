@@ -1,4 +1,4 @@
-import { changeFilter } from 'redux/filterSlice';
+import { changeFilter } from 'redux/contacts/filterSlice';
 import { InputList, Label } from './App.styled';
 import { useDispatch, useSelector } from 'react-redux';
 const Filter = () => {

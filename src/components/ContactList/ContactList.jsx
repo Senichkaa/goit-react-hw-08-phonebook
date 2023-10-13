@@ -2,13 +2,13 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { DeleteButton } from '../App.styled';
 
-import { fetchContacts, deleteContact } from 'redux/operations';
+import { fetchContacts, deleteContact } from 'redux/contacts/operations';
 import {
   selectContacts,
   selectError,
   selectFilter,
   selectIsLoading,
-} from 'redux/selectors';
+} from 'redux/contacts/selectors';
 
 export const ContactList = () => {
   const dispatch = useDispatch();
