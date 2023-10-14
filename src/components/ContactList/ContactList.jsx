@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { DeleteButton } from '../App.styled';
+import { DeleteButton, FilterDivWrap, FilterLi, FilterUl } from '../App.styled';
 
 import { fetchContacts, deleteContact } from 'redux/contacts/operations';
 import {
@@ -26,21 +26,21 @@ export const ContactList = () => {
   }, [dispatch]);
 
   return (
-    <div>
-      <ul>
+    <FilterDivWrap>
+      <FilterUl>
         {!isLoading &&
           filteredContacts.map(({ id, name, number }) => (
-            <li key={id}>
+            <FilterLi key={id}>
               {name}: {number}
               <DeleteButton onClick={() => dispatch(deleteContact(id))}>
                 Delete
               </DeleteButton>
-            </li>
+            </FilterLi>
           ))}
-      </ul>
+      </FilterUl>
       {isLoading && !error && (
         <p>Please wait. Your wish will be executed soon!</p>
       )}
-    </div>
+    </FilterDivWrap>
   );
 };

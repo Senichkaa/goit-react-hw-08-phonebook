@@ -6,8 +6,9 @@ import { Header } from 'components/App.styled';
 export default function Contacts() {
   return (
     <div>
-      <ContactForm />
       <Header>Contacts</Header>
+      <ContactForm />
+      <Header>Filter</Header>
       <Filter />
       <ContactList />
     </div>

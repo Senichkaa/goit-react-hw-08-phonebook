@@ -8,6 +8,7 @@ export const WrapperDiv = styled.div`
 
 export const HelloUserP = styled.p`
   font-weight: 600;
+  color: #415449;
 `;
 
 export const LogOutButton = styled.button`

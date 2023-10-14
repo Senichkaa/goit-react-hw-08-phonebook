@@ -1,5 +1,5 @@
 import { changeFilter } from 'redux/contacts/filterSlice';
-import { InputList, Label } from './App.styled';
+import { InputList, Label, FilterDivWrap } from './App.styled';
 import { useDispatch, useSelector } from 'react-redux';
 const Filter = () => {
   const dispatch = useDispatch();
@@ -10,7 +10,7 @@ const Filter = () => {
   };
 
   return (
-    <>
+    <FilterDivWrap>
       <Label htmlFor="filter">Find your contacts by name</Label>
       <InputList
         type="text"
@@ -20,7 +20,7 @@ const Filter = () => {
         onChange={onChangeFilter}
         placeholder="Find your contact"
       />
-    </>
+    </FilterDivWrap>
   );
 };
 
