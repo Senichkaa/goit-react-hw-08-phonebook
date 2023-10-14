@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.2eb2dac0.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.42d07997.js",
-    "static/js/493.366acdcd.chunk.js": "/goit-react-hw-08-phonebook/static/js/493.366acdcd.chunk.js",
-    "static/js/262.90659f14.chunk.js": "/goit-react-hw-08-phonebook/static/js/262.90659f14.chunk.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.d3d78a3d.js",
+    "static/js/493.1c3baba4.chunk.js": "/goit-react-hw-08-phonebook/static/js/493.1c3baba4.chunk.js",
+    "static/js/262.4b1cdb22.chunk.js": "/goit-react-hw-08-phonebook/static/js/262.4b1cdb22.chunk.js",
     "static/js/600.40ea08fe.chunk.js": "/goit-react-hw-08-phonebook/static/js/600.40ea08fe.chunk.js",
     "static/js/821.bec1e185.chunk.js": "/goit-react-hw-08-phonebook/static/js/821.bec1e185.chunk.js",
     "static/media/phone-bcg2.jpg": "/goit-react-hw-08-phonebook/static/media/phone-bcg2.377b4a036fb6bdc33f7b.jpg",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.2eb2dac0.css.map": "/goit-react-hw-08-phonebook/static/css/main.2eb2dac0.css.map",
-    "main.42d07997.js.map": "/goit-react-hw-08-phonebook/static/js/main.42d07997.js.map",
-    "493.366acdcd.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/493.366acdcd.chunk.js.map",
-    "262.90659f14.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/262.90659f14.chunk.js.map",
+    "main.d3d78a3d.js.map": "/goit-react-hw-08-phonebook/static/js/main.d3d78a3d.js.map",
+    "493.1c3baba4.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/493.1c3baba4.chunk.js.map",
+    "262.4b1cdb22.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/262.4b1cdb22.chunk.js.map",
     "600.40ea08fe.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/600.40ea08fe.chunk.js.map",
     "821.bec1e185.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/821.bec1e185.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2eb2dac0.css",
-    "static/js/main.42d07997.js"
+    "static/js/main.d3d78a3d.js"
   ]
 }
