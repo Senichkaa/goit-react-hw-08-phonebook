@@ -1,12 +1,13 @@
+import { HOneStart } from 'components/App.styled';
 export default function Home() {
   return (
     <div>
-      <h1>
+      <HOneStart>
         ContactsBook welcome page{' '}
         <span role="img" aria-label="Greeting icon">
           💁‍♀️
         </span>
-      </h1>
+      </HOneStart>
     </div>
   );
 }

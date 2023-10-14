@@ -35,3 +35,8 @@ export const DeleteButton = styled.button`
   margin-left: 10px;
   padding: 5px 5px;
 `;
+
+export const HOneStart = styled.h1`
+  font-weight: 600;
+  color: #415449;
+`;
