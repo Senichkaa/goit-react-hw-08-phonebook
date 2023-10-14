@@ -1,20 +1,3 @@
-// import { ContactForm } from './ContactForm/ContactForm';
-// import { ContactList } from './ContactList/ContactList';
-// import { Filter } from './Filter';
-// import { Header } from './App.styled';
-
-// export const App = () => {
-//   return (
-//     <div>
-//       <Header>Phonebook</Header>
-//       <ContactForm />
-//       <Header>Contacts</Header>
-//       <Filter />
-//       <ContactList />
-//     </div>
-//   );
-// };
-
 import { lazy, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { Route, Routes } from 'react-router-dom';
@@ -38,7 +21,7 @@ export const App = () => {
   }, [dispatch]);
 
   return isRefreshing ? (
-    'Wait a minute! We are trying to fetch your data...'
+    <div>'Wait a minute! We are trying to fetch your data...'</div>
   ) : (
     <Routes>
       <Route path="/" element={<Layout />}>
