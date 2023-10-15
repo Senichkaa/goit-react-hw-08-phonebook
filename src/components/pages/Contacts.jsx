@@ -1,16 +1,16 @@
 import { ContactForm } from 'components/ContactForm/ContactForm';
 import { ContactList } from 'components/ContactList/ContactList';
 import { Filter } from 'components/Filter';
-import { Header } from 'components/App.styled';
+import { Header, ContactsDivWrap } from 'components/App.styled';
 
 export default function Contacts() {
   return (
-    <div>
+    <ContactsDivWrap>
       <Header>Contacts</Header>
       <ContactForm />
       <Header>Filter</Header>
       <Filter />
       <ContactList />
-    </div>
+    </ContactsDivWrap>
   );
 }

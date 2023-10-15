@@ -5,9 +5,9 @@ export const LogInForm = styled.form`
   flex-direction: column;
   align-items: center;
   padding: 25px;
-  max-width: 280px;
-  margin: 0 auto;
-  background-color: rgba(108, 128, 116, 0.4);
+  max-width: 320px;
+  margin-top: 20px;
+  background-color: rgba(44, 51, 47, 0.6);
   border-radius: 6px;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -26,6 +26,7 @@ export const LoginInput = styled.input`
   border-radius: 6px;
   font-size: 16px;
   margin-top: 5px;
+  width: 300px;
 `;
 
 export const LoginButton = styled.button`

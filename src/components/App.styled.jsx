@@ -7,6 +7,7 @@ export const Input = styled.input`
   border-radius: 6px;
   font-size: 16px;
   margin-top: 5px;
+  width: 300px;
 `;
 
 export const Form = styled.form`
@@ -14,12 +15,13 @@ export const Form = styled.form`
   flex-direction: column;
   align-items: center;
   padding: 25px;
-  max-width: 280px;
+  max-width: 320px;
   margin: 0 auto;
-  background-color: rgba(108, 128, 116, 0.4);
+  background-color: rgba(44, 51, 47, 0.6);
   border-radius: 6px;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  z-index: 2;
 `;
 
 export const Button = styled.button`
@@ -45,6 +47,8 @@ export const InputList = styled.input`
   border-radius: 6px;
   font-size: 16px;
   margin-top: 5px;
+
+  width: 300px;
 `;
 export const Label = styled.label`
   display: flex;
@@ -58,7 +62,8 @@ export const Header = styled.h2`
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
-  color: #415449;
+
+  color: #8fc1a3;
 `;
 export const DeleteButton = styled.button`
   display: flex;
@@ -79,13 +84,13 @@ export const DeleteButton = styled.button`
 
 export const HOneStart = styled.h1`
   font-weight: 600;
-  color: #415449;
+  color: #8fc1a3;
 `;
 
 export const ContactFormLabel = styled.label`
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   color: #8fc1a3;
 `;
 
@@ -96,7 +101,7 @@ export const FilterDivWrap = styled.div`
   padding: 25px;
   width: 330px;
   margin: 0 auto;
-  background-color: rgba(108, 128, 116, 0.4);
+  background-color: rgba(44, 51, 47, 0.6);
   border-radius: 6px;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -107,10 +112,17 @@ export const FilterLi = styled.li`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  color: #8fc1a3;
 `;
 
 export const FilterUl = styled.ul`
   max-width: 800px;
   padding: 0;
   margin: 0;
+`;
+
+export const ContactsDivWrap = styled.div`
+  display: flex;
+  flex-direction: column;
 `;

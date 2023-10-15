@@ -8,7 +8,9 @@ export const WrapperDiv = styled.div`
 
 export const HelloUserP = styled.p`
   font-weight: 600;
-  color: #415449;
+  font-size: 20px;
+
+  color: #8fc1a3;
 `;
 
 export const LogOutButton = styled.button`
@@ -18,6 +20,7 @@ export const LogOutButton = styled.button`
   border: 1px solid #8fc1a3;
   font-size: 14px;
   padding: 10px 20px;
+  margin-right: 10px;
   cursor: pointer;
 
   :hover {

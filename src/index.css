@@ -7,8 +7,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(../phone-bcg2.jpg);
+  /* background-image: url(../backgrnd.jpg); */
+  background-image: url(../backgrnd.jpg);
   background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 code {

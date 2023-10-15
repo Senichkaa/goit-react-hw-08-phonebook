@@ -6,11 +6,13 @@ export const NaviStyledNavLink = styled(NavLink)`
   text-decoration: none;
   padding: 12px;
   font-weight: 600;
-  color: #415449;
+  font-size: 20px;
+  color: #8fc1a3;
+
   :hover {
-    color: #84b096;
+    color: #c5cec9;
   }
   :active {
-    color: #6c8074;
+    color: #c5cec9;
   }
 `;
